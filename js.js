@@ -19,5 +19,10 @@ document.getElementById("shots").appendChild(misss);
 var duck = document.createElement("img");
 duck.src = "duck.gif";
 duck.id = "duck";
+duck.onclick= duckhit;
 document.getElementById("fullpage").appendChild(duck);
 
+function duckhit(){
+    hits++;
+    hit.innerHTML = "HITS: " + hits;
+}
