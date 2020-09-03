@@ -1,5 +1,33 @@
-body{
-    background: url(stage.png);
-    background-repeat: no-repeat;
+*{
+    color: green;
+    font-size: 32px;
+    cursor: crosshair;
+}
+html{
+    background: url(stage.png) no-repeat center fixed;
     background-size: cover;
+}
+h1{
+    margin: 5px 10px;
+    padding: 0;
+}
+#fullpage{
+    height: 100%;
+    width: 100%;
+}
+#shots{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    border: green solid 5px;
+}
+#duck{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-125px;
+    margin-left:-125px;
 }
